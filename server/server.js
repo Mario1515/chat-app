@@ -4,6 +4,8 @@ import cookieParser from 'cookie-parser';
 
 import authRoutes from "./routes/authRoutes.js";
 import messageRoutes from "./routes/messageRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+
 import connectToMongoDB from './db/connectToMongoDB.js';
 
 const app = express();
@@ -16,17 +18,9 @@ app.use(cookieParser());
 
 app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
+app.use("/api/users", userRoutes)
 
 app.listen(PORT, () => {
     connectToMongoDB();
     console.log(`Server is running on port ${PORT}`)
 });
-
-// app.get("/", (req, res) => {
-//     // root localhost5000
-//     res.send("Hello world!");
-    
-// });
-
-
-
