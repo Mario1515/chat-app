@@ -24,7 +24,7 @@ const Login = () => {
       >
         <h1 className="text-3xl font-semibold text-center text-gray-300">
           Login
-          <span className="text-blue-500">ChatApp</span>
+          <span className="text-purple-700"> ChatApp</span>
         </h1>
 
         <form onSubmit={handleSubmit}>
