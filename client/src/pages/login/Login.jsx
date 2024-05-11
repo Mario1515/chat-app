@@ -51,7 +51,7 @@ const Login = () => {
               </span>
             </label>
             <input
-              type="text"
+              type="password"
               placeholder="Enter Password"
               className="input input-bordered input-primary w-full "
               style={{ backgroundColor: "#bbbbbb" }}
@@ -59,6 +59,8 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
+
+          
 
           <Link
             to="/signup"
