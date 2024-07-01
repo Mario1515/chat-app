@@ -6,10 +6,6 @@ ChatApp is my latest project (MERN) stack, reflecting my enthusiasm for React.js
 
 Visit it yourself at https://chat-app-production-8ybi.onrender.com/
 
-### Project Vision:
-
-The primary vision behind Crypto Easy React (MERN stack) is to create an intuitive and user-friendly platform that seamlessly integrates the power of React.js with the dynamic world of cryptocurrencies and NFTs. 
-
 ### Purpose:
 
 Discover the distinct capabilities of ChatApp, featuring JWT-based authentication, real-time messaging with Socket.io, online user status tracking using Socket.io and React Context, efficient global state management with Zustand, comprehensive error handling on server and client sides, and expert deployment guidance—all enhanced by a dynamic MERN stack with Socket.io, TailwindCSS, and Daisy UI.
